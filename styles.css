@@ -1,0 +1,202 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+}
+.header{
+    height: 70vh;
+    width: 100%;
+    background-image:url('assets\\header-image.png') ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    position: relative;
+}
+
+.nav{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px , 0;
+    height:100px;
+}
+
+.nav img{
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+.lang-btn{
+    background-color: rgba(23,23,23,0.2);
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.login-btn{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header-content{
+    color: white;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-content h1{
+    font-size: 65px;
+    font-weight: 900;
+    line-height: 125px;
+}
+
+.header-content h3{
+    font-size: 40px; ;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.header-content p{
+    font-size: 25px; ;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.signup{
+    border-radius: 6px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signup input{
+    background-color: rgba(23,23,23,0.2);
+    color: white;
+    width: 50;
+    height: 70px;
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 0px 40px;
+}
+
+.signup button{
+    border: 0;
+    outline: 0;
+    height: 70px;
+    width: 50;
+    font-size:30px ;
+    font-weight: 900;
+    background: red;
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+    color: white;
+}
+
+.content{
+    display: flex ;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0%;
+}
+
+.content_txt{
+    flex-basis: 50%;
+    margin-bottom: 30px;
+}
+
+.content_txt h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.content_txt h4{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.content_img{
+    flex-basis: 50%;
+    margin-bottom: 30px;
+}
+
+.content_img img{
+    display: block;
+    width: 80%;
+    margin:auto
+}
+
+
+.faq{
+    color: white;
+    background: black;
+    padding: 34px;
+    text-align:center;
+}
+
+.faq h1{
+    font-size:40px;
+    font-weight: 700;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;;
+}
+
+.faqitems:hover{
+    background-color: rgb(66, 62, 62);
+    color: white;
+}
+
+.faqitems{
+    transition: all is ease-out;
+    display: flex;
+    background-color: rgb(48, 42, 42);
+    padding: 24px;
+    max-width: 60vw;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 34px auto;
+}
+
+
+footer{
+    color: white;
+    display: grid;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footeritems{
+    display: flex;
+    flex-direction: column;
+}
